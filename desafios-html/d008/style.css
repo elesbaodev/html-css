@@ -1,0 +1,11 @@
+@charset "UTF-08";
+body {
+    background-color: rgb(203, 206, 209);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p {
+    font-weight: 500;
+}
+a {
+    color: rgb(0, 60, 255);
+}

@@ -1,0 +1,74 @@
+@charset "UTF-08";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    background-color: rgb(34, 34, 34);
+}
+main {
+   margin-top: -5%;
+   margin-left: 7%;
+    padding: 100px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 50px;
+    margin-top: 50px;
+}
+img {
+    display: block;
+    margin: 4% 0% 0% 30%;
+}
+div.videos {
+    position: relative;
+    display: block;
+    margin: auto;
+   
+}
+ iframe   {
+    position: absolute;
+    top: 73%;
+    left: 34%;
+   
+}
+
+#imagem02 {
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+    object-position: center;
+    margin-left: 903px;
+
+}
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    margin-top: 363px;
+    margin-right: 49px;
+}
+.imagem002 {
+        margin-top: 0px;
+
+
+}
+ main .imagem003 {
+    display: block;
+    margin-right: 50px;
+    
+  
+}
+
+    
+
+
+

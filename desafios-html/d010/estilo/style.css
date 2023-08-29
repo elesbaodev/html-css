@@ -1,0 +1,216 @@
+@charset "UTF-08";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@font-face {
+    font-family: "fonteprincipal";
+    src: url("../fontes/idroid.otf");
+
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --cor01: #A0FAAA;
+    --cor02: #4CE05E;
+    --cor03: #3BAD48;
+    --cor04: #216128;
+    --cor05: #02610D;
+
+}
+
+body {
+    background-color: var(--cor01);
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor02), var(--cor04));
+    height: 150px;
+}
+header > h1  {
+    text-align: center;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 43px;
+    padding-top: 13px;
+    text-shadow: -3px 0px 3px rgba(0, 0, 0, 0.452);
+
+}
+
+header > p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+header > nav > p > a {
+    padding-left: 10px;
+    color: rgb(245, 238, 238);
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;  
+    text-decoration: none;
+    
+}
+header > nav > p > a:hover {
+    text-shadow:  1px 0px 12px rgba(0, 0, 0, 0.452);
+}
+main {
+    background-color: white;
+    margin: auto;
+    max-width: 1455px;
+    min-width: none;
+    padding-left: 10px;
+}
+
+main > article > h1 {
+    font-family: "fonteprincipal";
+    padding: 10px;
+    color: var(--cor04);
+    font-size: 30px;
+    padding-left: 20px;
+}
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+main > article > p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    padding: 0px 0px 20px 10px;
+    text-indent: 20px;
+}
+ main strong {
+    color: var(--cor03);
+    font-weight: 700;
+}
+main > article > h2 {
+    font-family: "fonteprincipal";
+    color: var(--cor04);
+    background-color: var(--cor01);
+    margin: 9px;
+    height: 30px;
+    font-size: 25px;
+}    
+
+.externo {
+    color: var(--cor04);
+    font-weight: 700;
+    text-decoration: none;
+    background-color: rgba(67, 255, 83, 0.24);
+}
+.externo::after {
+    content: "\00A0\1F517";
+}
+.imagens {
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+}
+div.video {
+    background-color: var(--cor05);
+    position: relative;
+    margin: 0px 20px 2px 20px;
+    padding: 0px;
+    padding-bottom: 56%;
+
+    
+}
+div.video > iframe {
+    position: absolute;
+    top:  3%;
+    left: 5%;
+    width: 88%;
+    height: 90%;
+    
+
+
+}
+
+aside {
+  padding-top: 10px;
+  padding-right: 10px;
+  height: 542px;
+  margin-bottom: 9px;
+}
+aside >  h2 {
+    color: white;
+    background-color: var(--cor03);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 10px solid;
+    border-radius: 21px 21px 1px 1px;
+
+    border-color: var(--cor03);
+
+
+}
+aside > div {
+     background-color: rgba(96, 253, 180, 0.336);
+     border:  10px solid;
+     border-radius: 1px 1px 7px 13px;
+     border-color: rgba(96, 253, 180, 0.336);  
+     height: 469px;
+
+}
+aside p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    text-indent: 3em;
+    line-height: 1.6em;
+    margin-left: 5px ;
+}
+ul {
+    padding-top: 20px;
+    padding-bottom: 16px;
+    margin-left: 15px;
+    columns: 2;
+    list-style: "\00a0\2714";
+}
+
+ul > li {
+    list-style-position: inside;    
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+li {
+    list-style: '   \00a0\2714';
+    padding-left: 5px;
+  
+}
+.paragrafoextra {
+    line-height: 2em;
+}
+abbr  {
+    list-style-position: inside;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pultimo {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.pultimo > strong {
+    color: var(--cor02);
+    font-weight: bolder;
+    text-shadow: -1px 2px 22px rgba(0, 0, 0, 0.445);
+
+}
+footer > #autor {
+    background-color: var(--cor05);
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    width: 1456px;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+}
+footer a:hover {
+    color: var(--cor01);
+    
+}
+

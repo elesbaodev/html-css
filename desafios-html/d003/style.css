@@ -1,6 +1,8 @@
 @charset "UTF-08";
 
-div {
-    margin: 0px;
-    padding: 0px;
+.inlineimg {
+    display: inline-block;
+}
+#blockimg {
+    display: block;
 }

@@ -14,6 +14,10 @@
 :root {
     --cor01: black;
     --cor02: white;
+    --fonte01: 'Passion One', cursive;
+    --fonte02: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte03: 'Sriracha', cursive;
+
 }
 
 header {
@@ -21,7 +25,7 @@ header {
     padding-top: 30px;
 }
 header > h1 {
-    font-family: 'Passion One', cursive;
+    font-family: var(--fonte01);
     font-variant: small-caps;
     font-weight: 400;
     font-size: 192px;
@@ -30,13 +34,14 @@ header > h1 {
 }
 p {
     font-family: 'Sriracha', cursive;
-    font-size: 45px;
+    font-size: 48px;
 }
 header > nav > p {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: var(--fonte02);
     font-weight: 400;
     color: var(--cor02);
     text-align: center;
+    font-size: 25px;
 }
 a {
     text-decoration: none;
@@ -44,7 +49,33 @@ a {
 header > nav > p > a {
     color: var(--cor02);
 }
+main {
+    max-width: 518px;
+}
 main section {
-    background-color: white;
     padding-bottom: 50px;
+}
+#introducao {
+    height: 50px;
+    background-color: var(--cor02);
+}
+main p {
+    text-indent: 1em;
+    line-height: 2em;
+    padding-left: 20px;
+}
+#imagem01 {
+    background-image:url("../imagens/background001.jpg");
+    height: 70vh;
+    width: 1920px;
+    padding: 70px 50px;
+    background-size: cover;
+    background-position: center center;
+
+}
+#p01 {
+    background-color: rgba(0, 0, 0, 0.534);
+    color: white;
+    width: 33%;
+    text-indent: 0%;
 }

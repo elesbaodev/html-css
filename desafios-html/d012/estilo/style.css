@@ -19,7 +19,7 @@
     --fonte03: 'Sriracha', cursive;
 
 }
-body {
+html,body {
     min-width: 100vh;
 }
 
@@ -41,25 +41,25 @@ main p {
 }
 header > nav > p {
     font-family: var(--fonte02);
-    font-weight: 400;
     color: var(--cor02);
     font-size: 17px;
     padding-bottom: 20px;
 }
 a {
+    font-weight: bolder;
     text-decoration: none;
+    color: white;
 }
-header > nav > p > a {
-    color: var(--cor02);
-}
-header > nav > p > a:hover {
+a:hover {
     text-decoration: underline;
 
 }
 main {
-    max-width: 518px;
+    max-width: 1776px;
+    min-width: 100vh; ;
 }
 main section {
+    padding-top: 50px;
     padding-bottom: 50px;
 }
 #introducao {
@@ -74,10 +74,12 @@ main p {
 }
 #imagem01 {
     background-image:url("../imagens/background001.jpg");
-    height: 70vh;
-    width: 1920px;
+    height: 80vh;
+    width: 93vw;
     padding: 70px 50px;
+    padding-left: 10px;
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center center;
 
 }
@@ -86,12 +88,16 @@ main p {
     color: white;
     width: 33%;
     text-indent: 0%;
+    text-align: justify;
 }
 #imagem02 {
-    background-image: url("../imagens/background002.jpg");
-   height: 70vh; 
-   width: 1920px;
+   background-image: url("../imagens/background002.jpg");
+   height: 80vh; 
+   width: 96vw;
    padding: 60px 30px;
+   background-size: cover;
+   background-position: center center;
+   background-repeat: no-repeat;
    
 }
 footer p {
@@ -105,9 +111,6 @@ footer p {
 }
 footer > p > a {
     color: white;
-}
-footer > p > a > strong {
-   font-weight: bold;
 }
 footer > p > a:hover {
     text-decoration: underline;

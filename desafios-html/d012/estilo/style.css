@@ -20,7 +20,7 @@
 
 }
 html,body {
-    min-width: 100vh;
+    min-width: 10vh;
 }
 
 header {
@@ -32,7 +32,7 @@ header > h1 {
     font-family: var(--fonte01);
     font-variant: small-caps;
     font-weight: 400;
-    font-size: 192px;
+    font-size: 6vw;
     color: var(--cor02);
 }
 main p {
@@ -42,7 +42,6 @@ main p {
 header > nav > p {
     font-family: var(--fonte02);
     color: var(--cor02);
-    font-size: 17px;
     padding-bottom: 20px;
 }
 a {
@@ -56,14 +55,13 @@ a:hover {
 }
 main {
     max-width: 1776px;
-    min-width: 100vh; ;
+    min-width: 88vw; 
 }
 main section {
     padding-top: 50px;
     padding-bottom: 50px;
 }
 #introducao {
-    height: 750px;
     background-color: var(--cor02);
     margin-bottom: 10px;
 }
@@ -71,30 +69,29 @@ main p {
     text-indent: 1em;
     line-height: 2em;
     padding-left: 20px;
+    font-size: 3vw;
 }
 #imagem01 {
-    background-image:url("../imagens/background001.jpg");
-    height: 80vh;
-    width: 93vw;
-    padding: 70px 50px;
-    padding-left: 10px;
+    background-image: url("../imagens/background001.jpg");
+    width: 100vw;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
 
 }
 .pg {
-    background-color: rgba(0, 0, 0, 0.534);
+    background-color: rgba(0, 0, 0, 0.315);
     color: white;
-    width: 33%;
-    text-indent: 0%;
+    width: 50vw;
+    text-indent: 1em;
+    padding: 9px;
+    margin-left: 30px;
     text-align: justify;
+    font-size: 4vw;
 }
 #imagem02 {
    background-image: url("../imagens/background002.jpg");
-   height: 80vh; 
-   width: 96vw;
-   padding: 60px 30px;
+   width: 100vw;
    background-size: cover;
    background-position: center center;
    background-repeat: no-repeat;

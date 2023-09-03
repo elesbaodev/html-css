@@ -34,7 +34,7 @@ header > h1 {
 }
 main p {
     font-family: 'Sriracha', cursive;
-    font-size: 48px;
+    font-size: 50px;
 }
 header > nav > p {
     font-family: var(--fonte02);
@@ -61,8 +61,9 @@ main section {
     padding-bottom: 50px;
 }
 #introducao {
-    height: 50px;
+    height: 750px;
     background-color: var(--cor02);
+    margin-bottom: 10px;
 }
 main p {
     text-indent: 1em;
@@ -90,4 +91,26 @@ main p {
    width: 1920px;
    padding: 60px 30px;
    
+}
+footer p {
+    background-color: var(--cor01);
+    color: var(--cor02);
+    height: 24px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+footer > p > a {
+    color: white;
+}
+footer > p > a > strong {
+   font-weight: bold;
+}
+footer > p > a:hover {
+    text-decoration: underline;
+}
+abbr {
+    color: white;
+    text-decoration: none;
 }

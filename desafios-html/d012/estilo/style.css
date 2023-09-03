@@ -19,10 +19,14 @@
     --fonte03: 'Sriracha', cursive;
 
 }
+body {
+    min-width: 100vh;
+}
 
 header {
     background-color: var(--cor01);
     padding-top: 30px;
+    text-align: center;
 }
 header > h1 {
     font-family: var(--fonte01);
@@ -30,7 +34,6 @@ header > h1 {
     font-weight: 400;
     font-size: 192px;
     color: var(--cor02);
-    text-align: center;
 }
 main p {
     font-family: 'Sriracha', cursive;
@@ -40,7 +43,6 @@ header > nav > p {
     font-family: var(--fonte02);
     font-weight: 400;
     color: var(--cor02);
-    text-align: center;
     font-size: 17px;
     padding-bottom: 20px;
 }

@@ -32,7 +32,7 @@ header > h1 {
     color: var(--cor02);
     text-align: center;
 }
-p {
+main p {
     font-family: 'Sriracha', cursive;
     font-size: 48px;
 }
@@ -41,13 +41,18 @@ header > nav > p {
     font-weight: 400;
     color: var(--cor02);
     text-align: center;
-    font-size: 25px;
+    font-size: 17px;
+    padding-bottom: 20px;
 }
 a {
     text-decoration: none;
 }
 header > nav > p > a {
     color: var(--cor02);
+}
+header > nav > p > a:hover {
+    text-decoration: underline;
+
 }
 main {
     max-width: 518px;
@@ -73,9 +78,16 @@ main p {
     background-position: center center;
 
 }
-#p01 {
+.pg {
     background-color: rgba(0, 0, 0, 0.534);
     color: white;
     width: 33%;
     text-indent: 0%;
+}
+#imagem02 {
+    background-image: url("../imagens/background002.jpg");
+   height: 70vh; 
+   width: 1920px;
+   padding: 60px 30px;
+   
 }

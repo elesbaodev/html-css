@@ -61,6 +61,9 @@ main section {
     padding-top: 50px;
     padding-bottom: 50px;
 }
+section > p {
+    padding-bottom: 1em;
+}
 #introducao {
     background-color: var(--cor02);
     margin-bottom: 10px;
@@ -71,16 +74,22 @@ main p {
     padding-left: 20px;
     font-size: 3vw;
 }
+.normal {
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.432);
+    background-size: cover;
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;   
+    width: 100vw;
+
+}
 #imagem01 {
     background-image: url("../imagens/background001.jpg");
-    width: 100vw;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
+ 
 
 }
 .pg {
-    background-color: rgba(0, 0, 0, 0.315);
+    background-color: rgba(0, 0, 0, 0.459);
     color: white;
     width: 50vw;
     text-indent: 1em;
@@ -91,10 +100,7 @@ main p {
 }
 #imagem02 {
    background-image: url("../imagens/background002.jpg");
-   width: 100vw;
-   background-size: cover;
-   background-position: center center;
-   background-repeat: no-repeat;
+ 
    
 }
 footer p {

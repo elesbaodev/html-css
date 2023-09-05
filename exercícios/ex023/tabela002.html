@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utilizando tabelas grandes</title>
+    <style>
+        body {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        table {
+            border-collapse: collapse;
+            width: 500px;
+            
+        }
+        thead > tr > th  {
+            font-size: 25px;
+            
+        }
+
+        th {
+            padding: 10px;
+            width: 200px;
+            height: 30px;
+            border: 1px solid black;
+            border-collapse: collapse;
+            background-color: rgba(63, 62, 62, 0.315);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        td {
+            padding: 5px;
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        td:hover {
+            background-color: rgba(143, 141, 141, 0.219);
+
+        }
+        abbr {
+            text-decoration: none;
+        }
+        .pmaiores {
+            vertical-align: top;
+            text-align: left;
+        }
+        .pmaiores:hover {
+            background-color: rgba(0, 255, 0, 0.514);
+        }
+        img {
+            display: inline;
+            height: 15px;
+            padding-right: 5px;
+        }
+        .smaiores:hover {
+            background-color: rgb(161, 248, 0);
+        }
+        .pe {
+            background-color: rgba(128, 128, 128, 0.041);
+        }
+          .num {
+            text-align: right;
+            
+        }
+    </style>
+</head>
+<body>
+    <table> 
+        <thead>
+            <tr>
+                <th>Estado</th>
+                <th>População</th>
+            </tr>
+        </thead>
+
+        <tbody> 
+            <tr>
+                <td class="pmaiores"> <img src="Imagens/bandeirasp.png" alt="Bandeira do estado de São Paulo"><abbr title="SP">São Paulo</abbr></td>
+                <td class="num"><abbr title="21,88% (pop.total)">44 420 459</abbr></td>
+            </tr>
+            <tr>
+                <td class="pmaiores"> <img src="Imagens/bandeiramg.png" alt="Bandeira do estado de Minas Gerais"><abbr title="MG">Minas Gerais</abbr></td>
+                <td class="num"><abbr title="10,11% (pop.total)">20 538 718</abbr></td>
+            </tr>
+
+            <tr>
+                <td class="smaiores"> <img src="Imagens/bandeirarj.jpg" alt="Bandeira do estado Rio Janeiro"><abbr title="RJ">Rio de Janeiro</abbr></td>
+                <td class="num"><abbr title="7,91% (pop.total)">16 054 524</abbr></td>
+            </tr>
+
+            <tr>
+                <td class="smaiores"> <img src="Imagens/bandeiraba.png" alt="Bandeira do estado da Bahia"><abbr title="BA">Bahia</abbr></td>
+                <td class="num"><abbr title="6,96% (pop.total)">14 136 417</abbr></td>
+            </tr>
+
+            <tr>
+                <td><abbr title="PR"> <img src="Imagens/bandeirapr.jpg" alt="Bandeira do estado de Paraná">Paraná</abbr></td>
+                <td class="num"><abbr title="5,64% (pop.total)">11 443 208</abbr></td>
+            </tr>
+            
+            <tr>
+                <td><abbr title="RS"> <img src="Imagens/bandeirars.jpg" alt="Bandeira do estado do Rio Grande do Sul"> Rio Grande do Sul</abbr></td>
+                <td class="num"><abbr title="5,36% (pop.total)">10 880 506</abbr></td>
+            </tr>
+
+            <tr>
+                <td class="pe"><abbr title="PE"><img src="Imagens/bandeirape.png" alt="Bandeira do estado de Pernambuco"> Pernambuco</abbr></td>
+                <td class="num"><abbr title="4,46% (pop.total)">9 058 155</abbr></td>
+            </tr>
+
+            <tr>
+                <td><abbr title="CE"><img src="Imagens/bandeirace.png" alt="Bandeira do estado Ceará"> Ceará</abbr></td>
+                <td class="num"><abbr title="4,33% (pop.total)">8 791 688</abbr></td>
+            </tr>
+
+            <tr>
+                <td><abbr title="PA"><img src="Imagens/bandeirapa.png" alt="Bandeira do estado Pará"> Pará</abbr></td>
+                <td class="num"><abbr title="4,1% (pop.total)">8 116 132</abbr></td>
+            </tr>
+
+            <tr>
+                <td><abbr title="SC"><img src="Imagens/bandeirasc.png" alt="Bandeira do estado de Santa Catarina"> Santa Catarina</abbr></td>
+                <td class="num"><abbr title="3,75% (pop.total)">7 609 601</abbr></td>
+            </tr>
+
+            <tr>
+                <td><abbr title="GO"><img src="Imagens/bandeirago.png" alt="Bandeira do estado de Goiás"> Goiás</abbr></td>
+                <td class="num"><abbr title="3,47% (pop.total)">7 055 228</abbr></td>
+            </tr>
+            
+            <tr>
+                <td><abbr title="MA"><img src="Imagens/bandeirama.png" alt="Bandeira do estado Maranhão"> Maranhão</abbr></td>
+                <td class="num"><abbr title="3,34% (pop.total)">6 775 152</abbr></td>
+            </tr>
+            
+            <tr>
+                <td><abbr title="PB"><img src="Imagens/bandeirapb.jpg" alt="Bandeira do estado Paraíba"> Paraíba</abbr></td>
+                <td class="num"><abbr title="1,96% (pop.total)">3 974 495</abbr></td>
+            </tr>
+
+            <tr>
+                <td><abbr title="AM"><img src="Imagens/bandeiraam.png" alt="Bandeira do estado de Amazonas"> Amazonas</abbr></td>
+                <td class="num"><abbr title="1,94% (pop.total)">3 941 175</abbr></td>
+            </tr>
+
+            <tr>
+                <td><abbr title="ES"><img src="Imagens/bandeiraes.jpg" alt="Bandeira do estado de Espírito Santo"> Espírito Santo</abbr></td>
+                <td class="num"><abbr title="1,89% (pop.total)">3 833 486</abbr></td>
+            </tr>
+
+            <tr>
+                <td><abbr title="MT"><img src="Imagens/bandeiramt.png" alt="Bandeira do estado  de Mato Grosso"> Mato Grosso</abbr></td>
+                <td class="num"><abbr title="1,8% (pop.total)">3 658 813</abbr></td>
+            </tr>
+
+            <tr>
+                <td><abbr title="RN"><img src="Imagens/bandeirarn.png" alt="Bandeira do estado de  Rio Grande do Norte"> Rio Grande do Norte</abbr></td>
+                <td class="num"><abbr title="1,63% (pop.total)">3 302 406</abbr></td>
+            </tr>
+            
+            <tr>
+                <td><abbr title="PI"><img src="Imagens/bandeirapi.png" alt="Bandeira do estado de Piauí"> Piauí</abbr></td>
+                <td class="num"><abbr title="1,61% (pop.total)">3 269 200</abbr></td>
+            </tr>
+
+            <tr>
+                <td><abbr title="AL"><img src="Imagens/bandeiraal.png" alt="Bandeira do estado de Alagoas"> Alagoas</abbr></td>
+                <td class="num"><abbr title="1,54% (pop.total)">3 127 511</abbr></td>
+            </tr>
+            
+            <tr>
+                <td><abbr title="DF"><img src="Imagens/bandeiradf.png" alt="Bandeira do Distrito Federal"> Distrito Federal</abbr></td>
+                <td class="num"><abbr title="1,39% (pop.total)">2 817 068</abbr></td>
+            </tr>
+
+            <tr>
+                <td><abbr title="MS"><img src="Imagens/bandeirams.png" alt="Bandeira do estado de  Mato Grosso do Sul"> Mato Grosso do Sul</abbr></td>
+                <td class="num"><abbr title="1,36% (pop.total)">2 756 700</abbr></td>
+            </tr>
+
+            <tr>
+                <td><abbr title="SE"><img src="Imagens/bandeirase.png" alt="Bandeira do estado de Sergipe"> Sergipe</abbr></td>
+                <td class="num"><abbr title="1,09% (pop.total)">2 209 558</abbr></td>
+            </tr>
+
+            <tr>
+                <td><abbr title="RO"><img src="Imagens/bandeiraro.png" alt="Bandeira do estado de Rondônia"> Rondônia</abbr></td>
+                <td class="num"><abbr title="0,78% (pop.total)">1 581 016</abbr></td>
+            </tr>
+
+            <tr>
+                <td><abbr title="TO"><img src="Imagens/bandeirato.png" alt="Bandeira do estado de Tocantins"> Tocantins</abbr></td>
+                <td class="num"><abbr title="0,74% (pop.total)">1 511 459</abbr></td>
+            </tr>
+            
+            <tr>
+                <td><abbr title="AC"><img src="Imagens/bandeiraac.png" alt="Bandeira do estado de Acre"> Acre</abbr></td>
+                <td class="num"><abbr title="0,41% (pop.total)">830 026</abbr></td>
+            </tr>
+
+            <tr>
+                <td><abbr title="AP"><img src="Imagens/bandeiraap.png" alt="Bandeira do estado de Amapá"> Amapá</abbr></td>
+                <td class="num"><abbr title="0,36% (pop.total)">733 508</abbr></td>
+            </tr>
+
+            <tr>
+                <td><abbr title="RR"><img src="Imagens/bandeirarr.png" alt="Bandeira do estado de Roraima"> Roraima</abbr></td>
+                <td class="num"><abbr title="0,31 (pop.total)">636 303</abbr></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total de Habitantes</th>
+                <td class="num"><strong>218 987 392</strong></td>
+            </tr>
+
+        </tfoot>
+    </table>
+    
+</body>
+</html>

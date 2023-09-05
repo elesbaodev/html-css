@@ -13,14 +13,22 @@
             width: 500px;
             
         }
+        caption {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 12px;
+            background-color: rgba(121, 118, 118, 0.253);
+            border: 1px dashed rgba(121, 118, 118, 0.253);
+            border-radius: 5px 5px 0px 0px;
+        }
         thead > tr > th  {
             font-size: 25px;
             
         }
 
-        th {
+        th  {
             padding: 10px;
-            width: 200px;
             height: 30px;
             border: 1px solid black;
             border-collapse: collapse;
@@ -58,17 +66,18 @@
             background-color: rgba(128, 128, 128, 0.041);
         }
           .num {
-            text-align: right;
+            text-align: center;
             
         }
     </style>
 </head>
 <body>
     <table> 
+        <caption>População das Unidades Federativas</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th style="width: 50px;" scope="col">População</th>
             </tr>
         </thead>
 
@@ -209,7 +218,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
+                <th scope="row">Total de Habitantes</th>
                 <td class="num"><strong>218 987 392</strong></td>
             </tr>
 

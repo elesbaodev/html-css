@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+</head>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    table {
+        width: 400px;
+        padding: 20px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        text-align: center;
+        border-collapse: collapse;
+    }
+    th {
+        border: 1px solid black;
+        padding-bottom: 10px;
+        padding-top: 10px;
+
+    }
+    th.principais {
+        background-color: gray;
+        color: white;
+    }
+    td {
+        border: 1px solid black;
+    }
+
+</style>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2" class="principais">Área</th>
+                <th class="principais" rowspan="2">Disciplinas</th>
+                <th class="principais" colspan="2">Notas</th>
+                <th colspan="2"
+                rowspan="2" class="principais">Média</th>
+            </tr>
+            
+            <tr>
+                <th class="principais">Nota 1</th>
+                <th class="principais">Nota 2</th>
+               
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="4">Exatas</th>
+                <td>Matemática</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+
+            <tr>
+                <td>Física</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+
+            <tr>
+                <td>Química</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+
+            <tr>
+                <td>Biologia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+
+            <tr>
+                <th colspan="5" style="color: white; background-color: gray; text-align: left; padding-left: 10px;">Média de Exatas</th>
+                <td>0.0</td>
+            </tr>
+        </tbody>
+
+    </table>
+    
+</body>
+</html>

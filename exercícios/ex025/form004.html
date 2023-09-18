@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        fieldset {
+            border: 2px solid black;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        legend {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <fieldset>
+        <legend>Dados Pessoais</legend>
+        <form action="cadastro.js" method="get" autocomplete="on">
+            <p>
+                <label for="inome">Nome:</label>
+                <input type="text" name="nome" id="inome" minlength="5" maxlength="24" required placeholder="digite o seu nome">
+            </p>
+            <p>
+                <label for="iemail">E-mail</label>
+                <input type="email" name="mail" id="iemail" required autocomplete="email" placeholder="digite o seu email">
+            </p>
+            <p>
+                <label for="itel">Telefone</label>
+                <input type="tel" name="tel" id="itel" autocomplete="tel" required placeholder="(xx)xxxx-xxxx">
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+        </form>
+    </fildset>
+    
+</body>
+</html>

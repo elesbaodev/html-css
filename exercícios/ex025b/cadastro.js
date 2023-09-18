@@ -1,0 +1,1 @@
+Para outras informações aprenda uma linguagem de programação.

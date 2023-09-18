@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário exercício próprio</title>
+</head>
+<body>
+    <h1>Formulários</h1>
+    <fieldset>
+        <form action="cadastro.js" method="get" autocomplete="on">
+            <p>
+                <label for="inome">Nome</label>
+                <input type="text" name="nome" id="inome"
+                autocomplete="name" required minlength="11" placeholder="Seu nome completo">
+            </p>
+        <p>
+            <label for="inasc">Nascimento</label>
+            <input type="date" name="nasc" id="inasc" required value="2023-09-18" autocomplete="bday">
+        </p>
+        <p>
+            <label for="isex">Sexo:</label>
+            <input type="text" name="sexo" id="isexo"
+            autocomplete="sex" placeholder="Masculino ou Feminino">
+        </p>
+        <p>
+            <label for="imail">Email para contato:</label>
+            <input type="email" name="mail" id="imail" required>
+        </p>
+        <p>
+            <label for="icheck">Verifique-se</label>
+            <input type="checkbox" name="check" id="icheck" required>
+        </p>
+        <p>
+            <label for="ibutao">Botao</label>
+            <input type="button" value="KRL" id="ibutao">
+        </p>
+        <input type="submit" value="Enviar">
+        </form>
+    </fieldset>
+    
+</body>
+</html>

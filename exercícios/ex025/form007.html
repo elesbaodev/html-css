@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>Exemplo Formulário</h1>
-    <form action="cadastro.js" method="get" autocomplete="on">
+    <form action="cadastro.js" method="post" autocomplete="on">
         <p>
             <label for="iest">Estado</label>
             <select name="estado" id="iest">
@@ -49,6 +49,22 @@
                     <option value="SC">Santa Catarina</option>
                 </optgroup>
             </select>
+        </p>
+
+        <p>
+            <label for="iprof">Profissão: </label>
+            <input type="text" name="prof" id="iprof" list="islist">
+            <datalist id="islist">
+                <option>Administrador</option>
+                <option>Contabilista</option>
+                <option>Desenvolvedor</option>
+                <option>Professor</option>
+            </datalist>
+        </p>
+
+        <p>
+            <label for="imsg">Mensagem: </label><br>
+            <textarea name="mensagem" id="imsg" cols="30" rows="10" placeholder="Sua mensagem aqui..."></textarea>
         </p>
 
         <p>

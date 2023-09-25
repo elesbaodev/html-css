@@ -2,30 +2,36 @@
 
 @media screen and (min-width: 768px)  {
 
-    menu > ul > li > a{
-         display: inline-block;           
-         background-color: rgb(75, 74, 74);
-         text-align: left;
-         padding: 10px;
+    menu > ul > li > a {
+          position: relative;
+          display: inline-block;           
+          background-color: rgb(75, 74, 74);
+          text-align: left;
+          padding: 10px;
     }
+ 
+     menu > ul > li > a:hover  {
+          background-color: rgba(255, 255, 255, 0.171);
+     }
 
-   menu > ul > li > a:hover  {
-        background-color: rgba(255, 255, 255, 0.171);
-   }
-
-    main {
-        margin: auto;
-        margin-top: 15px;
-        width: 740px;
-    }
+     main {
+          margin: auto;
+          margin-top: 15px;
+          width: 740px;
+     }
 
 
-    a {
-        text-decoration: none;
-        color: white;
-   }
+     a {
+          text-decoration: none;
+          color: white;
+     }
+ }
 
-   }
+
+
+  
+
+   
    
    
    

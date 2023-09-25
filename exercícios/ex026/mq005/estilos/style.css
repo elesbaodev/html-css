@@ -37,7 +37,7 @@ main > article {
     padding: 30px;
     background-color: rgb(255, 255, 255);
 }
-main > ul {
+menu > ul {
     list-style-type: none;
 }
 
@@ -51,7 +51,7 @@ main p {
 
 }
 
-menu > ul > li > a {
+menu > nav > ul > li {
     display: block;
     text-decoration: none;
     color: white;
@@ -60,6 +60,11 @@ menu > ul > li > a {
     border: 2px solid gray;
 }
 
-menu > ul > li > a:hover {
+menu > nav > ul > li > a {
+    color: white;
+    text-decoration: none;
+}
+
+menu > nav > ul > li:hover {
     background-color: rgba(255, 255, 255, 0.171);
    }

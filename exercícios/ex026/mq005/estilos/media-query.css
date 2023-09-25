@@ -2,15 +2,21 @@
 
 @media screen and (min-width: 768px)  {
 
-    menu > ul > li > a {
-          position: relative;
-          display: inline-block;           
-          background-color: rgb(75, 74, 74);
+     menu > nav > ul > li {
+          display: inline-block;
           text-align: left;
+          background-color: rgb(75, 74, 74);
+          padding: 10px;
+          border: 0px solid;
+     }
+
+    menu > ul > li > a { 
+     display: inline;         
+          background-color: rgb(75, 74, 74);
           padding: 10px;
     }
  
-     menu > ul > li > a:hover  {
+     menu > nav > ul > li:hover  {
           background-color: rgba(255, 255, 255, 0.171);
      }
 

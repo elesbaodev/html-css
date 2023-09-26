@@ -2,6 +2,10 @@
 
 @media screen and (min-width: 768px)  {
 
+     menu {
+          display: block;
+     }
+     
      menu > nav > ul > li {
           display: inline-block;
           text-align: left;
@@ -30,6 +34,10 @@
      a {
           text-decoration: none;
           color: white;
+     }
+
+     span#burguer {
+          display: none;
      }
  }
 
